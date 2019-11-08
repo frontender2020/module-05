@@ -81,8 +81,11 @@ li.menu-item {
 
 /* section offer */
 
-.slides-item img {
+.slides {
     position: relative;
+}
+
+.slides-item img {
     width: 100%;
     height: auto;
 }
@@ -210,7 +213,7 @@ h2.section-title::after {
     margin-bottom: 8px;
 }
 
-a.features-icon {
+.features-icon {
     display: block;
     float: left;
     width: 24px;
@@ -220,20 +223,20 @@ a.features-icon {
     margin-right: 10px;
 }
 
-a.features-icon:first-child {
+.features-icon:first-child {
     background: url("../img/heart.png") no-repeat center;
 }
 
-a.features-icon:nth-child(2) {
+.features-icon:nth-child(2) {
     background: url("../img/arrows.png") no-repeat center;
 }
 
-a.features-icon:nth-child(3) {
+.features-icon:nth-child(3) {
     background: url("../img/clock.png") no-repeat center;
     margin-right: 0;
 }
 
-a.features-icon:hover {
+.features-icon:hover {
     background-color: #1abc9c;
     transition: 0.2s;
 }
